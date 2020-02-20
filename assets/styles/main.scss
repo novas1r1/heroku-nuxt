@@ -1,0 +1,53 @@
+$margin-max: 32px;
+$margin-mid: 24px;
+$margin-std: 16px;
+$margin-small: 8px;
+
+h1 {
+  margin-bottom: $margin-max !important;
+  color: #00798a;
+}
+
+h2 {
+  margin-bottom: $margin-mid !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  /*font-family: 'Amatic SC', sans-serif;*/
+  font-family: sofia-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.input-control {
+  margin-bottom: 10px;
+}
+
+.input-control label {
+  display: block;
+  font-weight: bold;
+}
+
+$primary: #00798a;
+
+@import '~bootstrap/scss/bootstrap';

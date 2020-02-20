@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "types": ["@nuxtjs/vue-app", "@nuxtjs/axios"]
+  },
+  "exclude": ["node_modules"]
+}
